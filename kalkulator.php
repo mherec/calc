@@ -155,7 +155,7 @@ $calculator = new Calculator('history.txt');
 
 $result = "a = {$a}, b = {$b}<br />";
 $result .= "Dodawanie:<br />";
-$result .= $calculator->getResultOfOperation($a, $b, '?>');
+$result .= $calculator->getResultOfOperation($a, $b, '+');
 $result .= "<br />Odejmowanie:<br />";
 $result .= $calculator->getResultOfOperation($a, $b, '-');
 $result .= "<br />Mnożenie:<br />";
